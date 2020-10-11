@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+}
+
+#content {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px;
+  width: 375px;
+  height: 100px; 
+  padding-bottom: 2px;
+}
+/* dimentions for html box */
+
+.hero-image {
+  border-radius: 0;
+  background-image: url("/images/selfie.jpeg");
+  background-color: #cccccc;
+  height: 610px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* dimensions for selfie background */
+
+.hero-text {
+  /* padding-left: 20px; */
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  bottom: 2px;
+  left: 205px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Copperplate Light, 'Courier New', Courier, monospace;
+  font-size: 15;
+}
+/* main text config */
+
+header {
+  padding-left: 20px;
+  /* border-radius: 0;
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  left: 40%; */
+  color: white;
+  background-color: black;
+  font-family: Copperplate Light, 'Courier New', Courier, monospace;
+}
+
+footer {
+  background-color: black;
+  color: white;
+    margin: 0px 0 0 0;
+    padding-left: 20px;
+    font-family: 'Copperplate Light', 'Courier New', Courier, monospace;
+}
+/* dimensions for footer */
+
+footer a:link {color: white; }
+footer a:visited {color: rgb(168, 206, 111);}
+footer a:hover {color: greenyellow; }
+footer a:active {color:  rgb(133, 186, 55);}
+  
