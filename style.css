@@ -21,7 +21,7 @@
 
 .hero-image {
   border-radius: 0;
-  background-image: url("/selfie.jpeg");
+  background-image: url("selfie.jpeg");
   background-color: #cccccc;
   height: 610px;
   background-position: center;
