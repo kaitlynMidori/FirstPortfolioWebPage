@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+
 #content {
   width: 500px;
   height: 500px;
@@ -40,7 +43,8 @@
   left: 205px;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: Copperplate Light, 'Courier New', Courier, monospace;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
   font-size: 15;
 }
 /* main text config */
@@ -54,7 +58,8 @@ header {
   left: 40%; */
   color: white;
   background-color: black;
-  font-family: Copperplate Light, 'Courier New', Courier, monospace;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
 }
 
 footer {
@@ -62,7 +67,8 @@ footer {
   color: white;
     margin: 0px 0 0 0;
     padding-left: 20px;
-    font-family: 'Copperplate Light', 'Courier New', Courier, monospace;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
 }
 /* dimensions for footer */
 
